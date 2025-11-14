@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wentworth Holdings</title>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+      text-align: center;
+      margin: 0;
+      background: #f8f8f8;
+    }
+    .logo-wrap img {
+      width: 300px;
+      margin-top: 40px;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+    h2 {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 40px;
+    }
+    table {
+      width: 80%;
+      margin: 40px auto;
+      text-align: left;
+    }
+    table a {
+      color: #4b0082;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    table a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- LOGO -->
+<div class="logo-wrap">
+  <img src="logo.png" alt="Wentworth Holdings Logo">
+</div>
+
+<!-- Title + Slogan -->
+<h1>WENTWORTH HOLDINGS</h1>
+<h2>TRADITION. STRENGTH. VISION.</h2>
+
+<!-- STOCK WIDGET -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js">
+  {
+    "symbols": [
+      { "proName": "TSE:8136", "title": "Sanrio" },
+      { "proName": "TSE:8729", "title": "Sony Financial Group" },
+      { "proName": "TSE:4568", "title": "Daiichi Sankyo" },
+      { "proName": "TSE:7453", "title": "Ryohin Keikaku (MUJI)" },
+      { "proName": "TSE:9432", "title": "NTT" }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "light",
+    "isTransparent": false,
+    "displayMode": "regular",
+    "locale": "en"
+  }
+  </script>
+</div>
+
+<hr>
+
+<!-- MENU LINKS -->
+<table>
+  <tr>
+    <td valign="top">
+      <p><a href="founder.html">Founder's Message</a></p>
+      <p><a href="#">Investment Philosophy</a></p>
+      <p><a href="#">Market Commentary</a></p>
+      <p><a href="#">Business Divisions</a></p>
+      <p><a href="#">Corporate Governance</a></p>
+      <p><a href="#">Sustainability</a></p>
+    </td>
+
+    <td valign="top">
+      <p><a href="#">Annual & Quarterly Reports</a></p>
+      <p><a href="#">Shareholder Letters</a></p>
+      <p><a href="#">Portfolio Holdings</a></p>
+      <p><a href="#">Research & Insights</a></p>
+      <p><a href="#">Risk Management</a></p>
+      <p><a href="#">Contact Information</a></p>
+    </td>
+  </tr>
+</table>
+
+<footer>
+  © 2025 WENTWORTH HOLDINGS. All Rights Reserved.
+</footer>
+
+</body>
+</html>
