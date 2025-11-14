@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Holdings – Wentworth Holdings</title>
+  <style>
+    body {
+      max-width: 900px;
+      margin: 40px auto;
+      font-family: "Times New Roman", serif;
+      line-height: 1.7;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      font-size: 32px;
+      letter-spacing: 2px;
+      margin-bottom: 5px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 16px;
+      color: #666;
+      letter-spacing: 3px;
+      margin-top: 0;
+    }
+    p {
+      font-size: 17px;
+      margin-top: 14px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 24px;
+      font-size: 16px;
+    }
+    th, td {
+      border-bottom: 1px solid #ccc;
+      padding: 8px 6px;
+      text-align: left;
+    }
+    th {
+      font-weight: bold;
+    }
+    .note {
+      font-size: 14px;
+      color: #777;
+      margin-top: 10px;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>PORTFOLIO HOLDINGS</h1>
+<h2>CONCENTRATED POSITIONS. LONG-TERM FOCUS.</h2>
+
+<p>
+The portfolio of Wentworth Holdings is intentionally concentrated in a select number of
+high-conviction ideas. We prefer owning a few businesses we understand deeply over
+holding many positions we only know superficially.
+</p>
+
+<p>
+The table below summarizes the core equity positions currently held in the portfolio.
+Share counts and cost bases are illustrative of our internal long-term capital
+allocation, while market prices update in real time via the ticker widget.
+</p>
+
+<table>
+  <tr>
+    <th>Ticker</th>
+    <th>Company</th>
+    <th>Exchange</th>
+    <th>Shares Held</th>
+    <th>Average Cost (JPY)</th>
+    <th>Role in Portfolio</th>
+  </tr>
+  <tr>
+    <td>3350</td>
+    <td>Metaplanet Inc.</td>
+    <td>TSE</td>
+    <td>100</td>
+    <td>393</td>
+    <td>High-conviction thematic position with asymmetric upside potential.</td>
+  </tr>
+  <tr>
+    <td>8136</td>
+    <td>Sanrio Co., Ltd.</td>
+    <td>TSE</td>
+    <td>800</td>
+    <td>6,149</td>
+    <td>Core consumer franchise with global brand strength and recurring demand.</td>
+  </tr>
+</table>
+
+<p class="note">
+Note: Positions and cost bases reflect internal records at the time of composition.
+Market prices are provided for reference and may fluctuate intraday.
+</p>
+
+<!-- Real-time price widget -->
+<div class="tradingview-widget-container" style="margin-top:30px;">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript"
+    src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+{
+  "symbols": [
+    { "proName": "TSE:3350", "title": "Metaplanet" },
+    { "proName": "TSE:8136", "title": "Sanrio" }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "isTransparent": false,
+  "locale": "en"
+}
+  </script>
+</div>
+
+<footer>
+  © 2025 WENTWORTH HOLDINGS. All Rights Reserved.
+</footer>
+
+</body>
+</html>
