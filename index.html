@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WENTWORTH HOLDINGS</title>
+
+<style>
+    body {
+        font-family: Georgia, "Times New Roman", serif;
+        max-width: 1000px;
+        margin: 40px auto;
+        color: #0A1A3A;
+        line-height: 1.6;
+    }
+
+    .logo-wrap {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .logo-wrap img {
+        max-width: 450px;
+        height: auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 34px;
+        color: #0A1A3A;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 8px;
+        font-weight: normal;
+        letter-spacing: 3px;
+        color: #555;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #AAA;
+        margin: 30px 0;
+    }
+
+    a {
+        color: #4B0082;
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    li {
+        margin: 8px 0;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 12px;
+        color: #555;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- LOGO -->
+<div class="logo-wrap">
+    <img src="logo.png" alt="Wentworth Holdings Logo">
+</div>
+
+<!-- 标题 & 口号 -->
+<h1>WENTWORTH HOLDINGS</h1>
+<h2>TRADITION. STRENGTH. VISION.</h2>
+
+<hr>
+
+<!-- 股票实时价格 -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+    "symbols": [
+      {
+        "proName": "TSE:8136",
+        "title": "Sanrio"
+      },
+      {
+        "proName": "TSE:8729",
+        "title": "Sony Financial Group"
+      }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "light",
+    "isTransparent": false,
+    "displayMode": "regular",
+    "locale": "en"
+  }
+  </script>
+</div>
+
+<hr>
+
+<!-- 主导航 -->
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+<ul>
+    <li><a href="#">Founder’s Message</a></li>
+    <li><a href="#">Investment Philosophy</a></li>
+    <li><a href="#">Market Commentary</a></li>
+    <li><a href="#">Business Divisions</a></li>
+    <li><a href="#">Corporate Governance</a></li>
+    <li><a href="#">Sustainability</a></li>
+</ul>
+
+</td>
+
+<td width="50%" valign="top">
+
+<ul>
+    <li><a href="#">Annual & Quarterly Reports</a></li>
+    <li><a href="#">Shareholder Letters</a></li>
+    <li><a href="#">Portfolio Holdings</a></li>
+    <li><a href="#">Research & Insights</a></li>
+    <li><a href="#">Risk Management</a></li>
+    <li><a href="#">Contact Information</a></li>
+</ul>
+
+</td>
+</tr>
+</table>
+
+<hr>
+
+<footer>
+    <p>© 2025 WENTWORTH HOLDINGS. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
